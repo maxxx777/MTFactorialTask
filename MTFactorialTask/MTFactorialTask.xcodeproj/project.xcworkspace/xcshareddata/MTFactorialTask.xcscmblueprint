@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9F85378A6674AF152AB67E448AAA4B4DAF487B20",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7B3173A9A8711E26B2B7E8EB32A82862FE9BF726" : 0,
+    "9F85378A6674AF152AB67E448AAA4B4DAF487B20" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "18D8D52B-43C0-4C81-9A0C-9E4153D96B18",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7B3173A9A8711E26B2B7E8EB32A82862FE9BF726" : "..",
+    "9F85378A6674AF152AB67E448AAA4B4DAF487B20" : "MTFactorialTask\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MTFactorialTask",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MTFactorialTask\/MTFactorialTask.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/alexthec0d3r\/scheduleapp-iphone-cloned.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7B3173A9A8711E26B2B7E8EB32A82862FE9BF726"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/maxxx777\/MTFactorialTask",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F85378A6674AF152AB67E448AAA4B4DAF487B20"
+    }
+  ]
+}

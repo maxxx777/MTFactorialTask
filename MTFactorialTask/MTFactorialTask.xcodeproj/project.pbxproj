@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75934EE21BD62EDD0086C31B /* MTFactorialTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75934EE11BD62EDD0086C31B /* MTFactorialTaskTests.m */; };
+		75934F021BD62FAA0086C31B /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75934EEE1BD62FAA0086C31B /* MTAppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		75934F031BD62FAA0086C31B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75934EEF1BD62FAA0086C31B /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		75934F051BD62FAA0086C31B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75934EF11BD62FAA0086C31B /* main.m */; settings = {ASSET_TAGS = (); }; };
+		75934F061BD62FAA0086C31B /* MTMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75934EF41BD62FAA0086C31B /* MTMasterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		75934F071BD62FAA0086C31B /* MTFactorialCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 75934EF71BD62FAA0086C31B /* MTFactorialCalculator.m */; settings = {ASSET_TAGS = (); }; };
+		75934F081BD62FAA0086C31B /* MTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 75934EFC1BD62FAA0086C31B /* MTTextField.m */; settings = {ASSET_TAGS = (); }; };
+		75934F091BD62FAA0086C31B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75934EFE1BD62FAA0086C31B /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		75934F0A1BD62FAA0086C31B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75934F001BD62FAA0086C31B /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75934EDE1BD62EDD0086C31B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75934EB91BD62EDD0086C31B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75934EC01BD62EDD0086C31B;
+			remoteInfo = MTFactorialTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75934EC11BD62EDD0086C31B /* MTFactorialTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTFactorialTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75934EDD1BD62EDD0086C31B /* MTFactorialTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTFactorialTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75934EE11BD62EDD0086C31B /* MTFactorialTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTFactorialTaskTests.m; sourceTree = "<group>"; };
+		75934EE31BD62EDD0086C31B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75934EED1BD62FAA0086C31B /* MTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTAppDelegate.h; sourceTree = "<group>"; };
+		75934EEE1BD62FAA0086C31B /* MTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTAppDelegate.m; sourceTree = "<group>"; };
+		75934EEF1BD62FAA0086C31B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75934EF01BD62FAA0086C31B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75934EF11BD62FAA0086C31B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75934EF31BD62FAA0086C31B /* MTMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMasterViewController.h; sourceTree = "<group>"; };
+		75934EF41BD62FAA0086C31B /* MTMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTMasterViewController.m; sourceTree = "<group>"; };
+		75934EF61BD62FAA0086C31B /* MTFactorialCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFactorialCalculator.h; sourceTree = "<group>"; };
+		75934EF71BD62FAA0086C31B /* MTFactorialCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFactorialCalculator.m; sourceTree = "<group>"; };
+		75934EF81BD62FAA0086C31B /* MTFactorialCalculatorIOInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFactorialCalculatorIOInterface.h; sourceTree = "<group>"; };
+		75934EFB1BD62FAA0086C31B /* MTTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTTextField.h; sourceTree = "<group>"; };
+		75934EFC1BD62FAA0086C31B /* MTTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTTextField.m; sourceTree = "<group>"; };
+		75934EFF1BD62FAA0086C31B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75934F011BD62FAA0086C31B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75934EBE1BD62EDD0086C31B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75934EDA1BD62EDD0086C31B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75934EB81BD62EDD0086C31B = {
+			isa = PBXGroup;
+			children = (
+				75934EC31BD62EDD0086C31B /* MTFactorialTask */,
+				75934EE01BD62EDD0086C31B /* MTFactorialTaskTests */,
+				75934EC21BD62EDD0086C31B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75934EC21BD62EDD0086C31B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75934EC11BD62EDD0086C31B /* MTFactorialTask.app */,
+				75934EDD1BD62EDD0086C31B /* MTFactorialTaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75934EC31BD62EDD0086C31B /* MTFactorialTask */ = {
+			isa = PBXGroup;
+			children = (
+				75934EEC1BD62FAA0086C31B /* Application */,
+				75934EF21BD62FAA0086C31B /* Controller */,
+				75934EF51BD62FAA0086C31B /* Logic */,
+				75934EF91BD62FAA0086C31B /* View */,
+			);
+			path = MTFactorialTask;
+			sourceTree = "<group>";
+		};
+		75934EE01BD62EDD0086C31B /* MTFactorialTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				75934EE11BD62EDD0086C31B /* MTFactorialTaskTests.m */,
+				75934EE31BD62EDD0086C31B /* Info.plist */,
+			);
+			path = MTFactorialTaskTests;
+			sourceTree = "<group>";
+		};
+		75934EEC1BD62FAA0086C31B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				75934EED1BD62FAA0086C31B /* MTAppDelegate.h */,
+				75934EEE1BD62FAA0086C31B /* MTAppDelegate.m */,
+				75934EF01BD62FAA0086C31B /* Info.plist */,
+				75934EF11BD62FAA0086C31B /* main.m */,
+				75934EEF1BD62FAA0086C31B /* Assets.xcassets */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		75934EF21BD62FAA0086C31B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75934EF31BD62FAA0086C31B /* MTMasterViewController.h */,
+				75934EF41BD62FAA0086C31B /* MTMasterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		75934EF51BD62FAA0086C31B /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				75934EF61BD62FAA0086C31B /* MTFactorialCalculator.h */,
+				75934EF71BD62FAA0086C31B /* MTFactorialCalculator.m */,
+				75934EF81BD62FAA0086C31B /* MTFactorialCalculatorIOInterface.h */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		75934EF91BD62FAA0086C31B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75934EFA1BD62FAA0086C31B /* CustomControls */,
+				75934EFD1BD62FAA0086C31B /* Storyboards */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75934EFA1BD62FAA0086C31B /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				75934EFB1BD62FAA0086C31B /* MTTextField.h */,
+				75934EFC1BD62FAA0086C31B /* MTTextField.m */,
+			);
+			path = CustomControls;
+			sourceTree = "<group>";
+		};
+		75934EFD1BD62FAA0086C31B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				75934EFE1BD62FAA0086C31B /* LaunchScreen.storyboard */,
+				75934F001BD62FAA0086C31B /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75934EC01BD62EDD0086C31B /* MTFactorialTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75934EE61BD62EDD0086C31B /* Build configuration list for PBXNativeTarget "MTFactorialTask" */;
+			buildPhases = (
+				75934EBD1BD62EDD0086C31B /* Sources */,
+				75934EBE1BD62EDD0086C31B /* Frameworks */,
+				75934EBF1BD62EDD0086C31B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTFactorialTask;
+			productName = MTFactorialTask;
+			productReference = 75934EC11BD62EDD0086C31B /* MTFactorialTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75934EDC1BD62EDD0086C31B /* MTFactorialTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75934EE91BD62EDD0086C31B /* Build configuration list for PBXNativeTarget "MTFactorialTaskTests" */;
+			buildPhases = (
+				75934ED91BD62EDD0086C31B /* Sources */,
+				75934EDA1BD62EDD0086C31B /* Frameworks */,
+				75934EDB1BD62EDD0086C31B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75934EDF1BD62EDD0086C31B /* PBXTargetDependency */,
+			);
+			name = MTFactorialTaskTests;
+			productName = MTFactorialTaskTests;
+			productReference = 75934EDD1BD62EDD0086C31B /* MTFactorialTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75934EB91BD62EDD0086C31B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "MAXIM TSVETKOV";
+				TargetAttributes = {
+					75934EC01BD62EDD0086C31B = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					75934EDC1BD62EDD0086C31B = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 75934EC01BD62EDD0086C31B;
+					};
+				};
+			};
+			buildConfigurationList = 75934EBC1BD62EDD0086C31B /* Build configuration list for PBXProject "MTFactorialTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75934EB81BD62EDD0086C31B;
+			productRefGroup = 75934EC21BD62EDD0086C31B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75934EC01BD62EDD0086C31B /* MTFactorialTask */,
+				75934EDC1BD62EDD0086C31B /* MTFactorialTaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75934EBF1BD62EDD0086C31B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75934F091BD62FAA0086C31B /* LaunchScreen.storyboard in Resources */,
+				75934F031BD62FAA0086C31B /* Assets.xcassets in Resources */,
+				75934F0A1BD62FAA0086C31B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75934EDB1BD62EDD0086C31B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75934EBD1BD62EDD0086C31B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75934F051BD62FAA0086C31B /* main.m in Sources */,
+				75934F081BD62FAA0086C31B /* MTTextField.m in Sources */,
+				75934F061BD62FAA0086C31B /* MTMasterViewController.m in Sources */,
+				75934F071BD62FAA0086C31B /* MTFactorialCalculator.m in Sources */,
+				75934F021BD62FAA0086C31B /* MTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75934ED91BD62EDD0086C31B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75934EE21BD62EDD0086C31B /* MTFactorialTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75934EDF1BD62EDD0086C31B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75934EC01BD62EDD0086C31B /* MTFactorialTask */;
+			targetProxy = 75934EDE1BD62EDD0086C31B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75934EFE1BD62FAA0086C31B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75934EFF1BD62FAA0086C31B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		75934F001BD62FAA0086C31B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75934F011BD62FAA0086C31B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75934EE41BD62EDD0086C31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		75934EE51BD62EDD0086C31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75934EE71BD62EDD0086C31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/MTFactorialTask/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxxx.MTFactorialTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75934EE81BD62EDD0086C31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/MTFactorialTask/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxxx.MTFactorialTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		75934EEA1BD62EDD0086C31B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTFactorialTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxxx.MTFactorialTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTFactorialTask.app/MTFactorialTask";
+			};
+			name = Debug;
+		};
+		75934EEB1BD62EDD0086C31B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MTFactorialTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxxx.MTFactorialTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTFactorialTask.app/MTFactorialTask";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75934EBC1BD62EDD0086C31B /* Build configuration list for PBXProject "MTFactorialTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75934EE41BD62EDD0086C31B /* Debug */,
+				75934EE51BD62EDD0086C31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75934EE61BD62EDD0086C31B /* Build configuration list for PBXNativeTarget "MTFactorialTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75934EE71BD62EDD0086C31B /* Debug */,
+				75934EE81BD62EDD0086C31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75934EE91BD62EDD0086C31B /* Build configuration list for PBXNativeTarget "MTFactorialTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75934EEA1BD62EDD0086C31B /* Debug */,
+				75934EEB1BD62EDD0086C31B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75934EB91BD62EDD0086C31B /* Project object */;
+}
