@@ -8,8 +8,7 @@ Assignment
 
 Find most biggest n which n! is not greater than m ( 0 <= m <= unsigned long max)
 
-Required
-====================
+### Required
 
 - Please do it in Objective-C
 - You can use just unsigned long type
@@ -17,14 +16,12 @@ Required
 - Use Recursive Function Call to calculate numbers.
 - Update every factorial number on the screen after calculation (one by one).
 
-Good To Have
-====================
+### Good To Have
 
 - Show Numbers on Tableview or Gridview.
 - Take care about efficiancy & performance
 
-Input/Output Samples
-====================
+### Input/Output Samples
 
 - if m = **0**
 result : 
