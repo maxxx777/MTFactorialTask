@@ -1,7 +1,7 @@
 MTFactorialTask
 ====================
 
-Simple app that solves factorial related problem.
+Simple app that solves factorial related problem (written in Objective-C).
 
 Assignment
 ====================
