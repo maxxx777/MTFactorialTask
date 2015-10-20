@@ -24,17 +24,17 @@ Find most biggest n which n! is not greater than m ( 0 <= m <= unsigned long max
 ### Input/Output Samples
 
 - if m = **0**
-result : 
+<br>result : 
 
 
 - if m = **1**
-result :
+<br>result :
 
 >1 (1! = 1)
 
 
 - if m = **2**
-result : 
+<br>result : 
 
 >1 (1! = 1)
 <br>
@@ -42,7 +42,7 @@ result :
 
 
 - if m = **3**
-result : 
+<br>result : 
 
 >1 (1! = 1)
 <br>
@@ -50,7 +50,7 @@ result :
 
 
 - if m = **5**
-result : 
+<br>result : 
 
 >1 (1! = 1)
 <br>
@@ -58,7 +58,7 @@ result :
 
 
 - if m = **7** or **23**
-result : 
+<br>result : 
 
 >1 (1! = 1)
 <br>
@@ -68,7 +68,7 @@ result :
 
 
 - if m = **24**
-result : 
+<br>result : 
 
 >1 (1! = 1)
 <br>
@@ -79,7 +79,7 @@ result :
 >4 (4! = 24)
 
 - if m = **1000** or **3456**
-result : 
+<br>result : 
 
 >1 (1! = 1)
 <br>
@@ -92,3 +92,10 @@ result :
 >5 (5! = 120)
 <br>
 >6 (6! = 720)
+
+Solution
+====================
+
+### Usage
+
+Run `MTFactorialTask.xcodeproj` from `/MTFactorialTask` directory. 
